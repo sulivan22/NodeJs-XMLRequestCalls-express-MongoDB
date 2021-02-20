@@ -29,7 +29,7 @@ app.use(cookieParser());
 app.use(bodyParser.urlencoded({ extended: false }));
 // required for passport
 app.use(session({
-    secret: 'sulivandbl12h',
+    secret: 'XXXXXXXX',
     resave: false,
     saveUninitialized: false
 }));
