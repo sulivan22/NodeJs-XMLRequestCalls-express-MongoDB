@@ -53,7 +53,7 @@ module.exports = function(passport) {
                         // API Request XML to JSON
                     const CreateUser = {
                         method: 'get',
-                        url: `https://www.voipinfocenter.com/API/Request.ashx?command=createcustomer&username=BTTF.DEV&password=Temporal_2021&customer=${ customer }&customerpassword=${ password }`,
+                        url: `https://www.voipinfocenter.com/API/Request.ashx?command=createcustomer&username=BTTF.DEV&password=XXXXXXXX&customer=${ customer }&customerpassword=${ password }`,
                     };
 
                     axios(CreateUser)
@@ -110,7 +110,7 @@ module.exports = function(passport) {
 
             const GetUserInfo = {
                 method: 'get',
-                url: `https://www.voipinfocenter.com/API/Request.ashx?command=GetUserInfo&username=BTTF.DEV&password=Temporal_2021&customer=${ customer }&customerpassword=${ password }`,
+                url: `https://www.voipinfocenter.com/API/Request.ashx?command=GetUserInfo&username=BTTF.DEV&password=XXXXXXX&customer=${ customer }&customerpassword=${ password }`,
             };
 
             axios(GetUserInfo)
